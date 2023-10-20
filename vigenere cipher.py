@@ -1,3 +1,5 @@
+// IDK if it's allowed to work at original vigenere cipher, So to be sure I work on Autokey vigerene cipher instead
+
 def encrypt(text, key):
     encrypted_text = ""
 
