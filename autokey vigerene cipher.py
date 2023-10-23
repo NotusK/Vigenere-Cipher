@@ -35,8 +35,7 @@ while(True):
 
         encrypted_text = encrypt(text, autokey)
         print("Encrypted text:", encrypted_text, "\n")
-        choice_decrypt = input("Decrypt? (y/n): ")
-        choice_decrypt.lower()
+        choice_decrypt = input("Decrypt? (y/n): ").lower()
         
         if(choice_decrypt == "y"):
             decrypted_text = decrypt(encrypted_text, autokey)
